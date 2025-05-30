@@ -1,20 +1,20 @@
 # 🧠 Anthony Lewallen – Developer Portfolio
 
-## Check out 🚀 **[Eugenius – Full-Stack AI Chat UI](https://react-llm-chat.vercel.app/)**  
-[![Deployed on Vercel](https://img.shields.io/badge/Live%20Demo-Vercel-brightgreen)](https://react-llm-chat.vercel.app/)
+## 🚀 Check out **[Eugenius – Full-Stack AI Chat UI](https://react-llm-chat.vercel.app/)**
+[![Live Demo – Vercel](https://img.shields.io/badge/Live%20Demo-Eugenius-blueviolet?logo=vercel&style=for-the-badge)](https://react-llm-chat.vercel.app/)  
 *(React + Express + OpenAI API | Markdown rendering, dark/light mode, animated loaders, chat history)*
 
 ---
 
 ## 💼 About This Portfolio
 
-This repository contains the source code and structure for my portfolio site, showcasing full-stack and AI-focused projects I've built using JavaScript, Java, Python, and LLMs. It's deployed via GitHub Pages and acts as a hub for my work.
+This repository contains the source code and structure for my portfolio site, showcasing full-stack and AI-focused projects built with JavaScript, Java, Python, and LLMs. It's deployed via GitHub Pages and acts as a central hub for my work.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Languages** Java, Python, JavaScript
+- **Languages**: Java, Python, JavaScript
 - **Frontend**: React, Vite, TypeScript, Tailwind CSS  
 - **Backend**: Node.js, Express  
 - **AI/LLM**: OpenAI API  
@@ -25,96 +25,93 @@ This repository contains the source code and structure for my portfolio site, sh
 
 ## 📂 Featured Projects
 
-💬 **[Eugenius](https://github.com/LewallenAE/react-llm-chat)** – A full-stack LLM chatbot using React, Node.js, and the OpenAI API with markdown rendering, animated loaders, and persistent chat history
+💬 **[Eugenius](https://github.com/LewallenAE/react-llm-chat)** – Full-stack LLM chatbot with markdown rendering, theme toggle, animated loaders, and persistent chat
 
 🐙 **[GitFolio](https://github.com/LewallenAE/gitfolio)** – GitHub-powered portfolio generator with live repo cards and commit stats  
 *Try entering `LewallenAE` or `torvalds` in the search bar!*
 
-🐯 **[Java Zoo Project](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Zoo)** – Object-oriented animal simulation using inheritance, interfaces, and polymorphism
+📚 **[Library CLI](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Library)** – Command-line Java library manager with search, sort, and file-based persistence
 
-🦁 **[Zoo Upgrade Project](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Zoo_Upgrade)** – Refactored zoo simulation with file I/O, serialization, and persistent animal states
+🔎 **[Library GUI + SQL](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/LibraryGUI)** – Full-stack JavaFX desktop application for managing a library using a SQL database backend
 
-📚 **[Library Search Engine (CLI)](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Library)** – Command-line Java library manager with search and sort capabilities
+🐯 **[Zoo Project](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Zoo)** – OOP-based animal simulation featuring interfaces and polymorphism
 
-🔎 **[Library Search Engine GUI w/ SQL](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/LibraryGUI)** – A full-stack JavaFX GUI app for managing library data backed by a SQL database
+🦁 **[Zoo Upgrade](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Zoo_Upgrade)** – Refactored version with serialization, file I/O, and persistent animal states
 
+---
 
-## 🚀 Getting Started
+## 🧰 Getting Started
 
-To run any Java project locally:
+To run these projects locally:
 
-1. Clone this repository
-2. Open in IntelliJ or your preferred Java IDE
-3. For GUI projects, make sure JavaFX is installed and configured
-4. Build using `pom.xml` (Maven)
-5. Run the `Main.java` file in each project folder to launch the app
+1. Clone this repository  
+2. Open it in IntelliJ, Eclipse, or any Java IDE  
+3. Install Maven dependencies (via `pom.xml`)  
+4. Run `Main.java` in any project to launch the app  
+   - For GUI apps, ensure JavaFX is installed and properly configured  
+   - For CLI apps, run in terminal/console view
 
+---
 
 ## 📁 Project Folder Structure
 
-### How to Run This Repo Out of the Box
-
-Make sure your local folder structure matches the layout below when importing into IntelliJ, Eclipse, VS Code, or any Java-friendly IDE.
-
-- 
 ```
-| /Wherever/Portfolio/
-├── .idea/                        # IntelliJ project files (auto-generated)
+/Portfolio/
+├── .idea/                        # IntelliJ project config
 ├── .gitignore
-├── Portfolio.iml                # IntelliJ module file
-├── pom.xml                      # Maven config
+├── Portfolio.iml                # IntelliJ module
+├── pom.xml                      # Maven build file
 ├── target/
-│   └── classes/                 # Compiled Java class files
-├── src/
-│
-│   ├── Library/                 # CLI-based Library Management System (Java)
-│   │   ├── Book.java
-│   │   ├── Library.java
-│   │   ├── LibraryMenu.java
-│   │   ├── LibrarySerializer.java
-│   │   ├── Main.java            # Entry point for CLI
-│   │   ├── SortUtil.java
-│   │   └── UserInteractionLogger.java
-│
-│   ├── resources/               # Data and testing files used by Library CLI
-│   │   ├── data/
-│   │   │   ├── books.txt
-│   │   │   ├── library.ser      # Serialized library object
-│   │   │   └── user_interactions.log
-│   │   └── test/
-│   │       └── test_books.txt  #for unit testing if needed
-│
-│   ├── LibraryGUI/              # JavaFX-based GUI for the Library system
-│   │   └── main/
-│   │       ├── java/
-│   │       │   ├── module-info.java
-│   │       │   └── com/
-│   │       │        └── librarygui/
-│   │       │                ├── Book.java
-│   │       │                └── LibraryUI.java
-│   │       └── resources/
-│   │           ├── primary.fxml
-│   │           └── secondary.fxml
-│
-│   ├── Zoo/                     # Intro OOP project (no I/O)
-│   │   ├── Animal.java
-│   │   ├── Dolphin.java         # Implements Swim
-│   │   ├── Eat.java             # Interface
-│   │   ├── Main.java            # Entry point for zoo simulation
-│   │   ├── Penguin.java         # Implements Walk and Swim
-│   │   ├── Swim.java            # Interface
-│   │   ├── Tiger.java           # Implements Walk and Eat
-│   │   └── Walk.java            # Interface
-│
-│   └── Zoo_Upgrade/             # Advanced Zoo w/ File I/O + Serialization
-│       ├── Animal.java
-│       ├── Dolphin.java
-│       ├── Eat.java
-│       ├── Main.java
-│       ├── Penguin.java
-│       ├── Swim.java
-│       ├── Tiger.java
-│       └── Walk.java
+│   └── classes/                 # Compiled .class files
+└── src/
+    ├── Library/                 # CLI-based Java app
+    │   ├── Book.java
+    │   ├── Library.java
+    │   ├── LibraryMenu.java
+    │   ├── LibrarySerializer.java
+    │   ├── Main.java
+    │   ├── SortUtil.java
+    │   └── UserInteractionLogger.java
+    │
+    ├── resources/
+    │   ├── data/
+    │   │   ├── books.txt
+    │   │   ├── library.ser
+    │   │   └── user_interactions.log
+    │   └── test/
+    │       └── test_books.txt
+    │
+    ├── LibraryGUI/
+    │   └── main/
+    │       ├── java/
+    │       │   ├── module-info.java
+    │       │   └── com/
+    │       │       └── librarygui/
+    │       │           ├── Book.java
+    │       │           └── LibraryUI.java
+    │       └── resources/
+    │           ├── primary.fxml
+    │           └── secondary.fxml
+    │
+    ├── Zoo/
+    │   ├── Animal.java
+    │   ├── Dolphin.java
+    │   ├── Eat.java
+    │   ├── Main.java
+    │   ├── Penguin.java
+    │   ├── Swim.java
+    │   ├── Tiger.java
+    │   └── Walk.java
+    │
+    └── Zoo_Upgrade/
+        ├── Animal.java
+        ├── Dolphin.java
+        ├── Eat.java
+        ├── Main.java
+        ├── Penguin.java
+        ├── Swim.java
+        ├── Tiger.java
+        └── Walk.java
 ```
 
 ---

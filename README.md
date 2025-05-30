@@ -26,9 +26,10 @@ This repository contains the source code and structure for my portfolio site, sh
 
 - 💬 **[Eugenius](https://github.com/LewallenAE/react-llm-chat)** – LLM chatbot with markdown, theme toggle, and animated loaders  
 - 🐙 **[GitFolio](https://github.com/LewallenAE/gitfolio)** – Portfolio generator powered by GitHub API  
-- 🐯 **[Java Zoo Project](https://github.com/LewallenAE/java-zoo)** – OOP design with inheritance and polymorphism  
-- 🦁 **[Zoo Upgrade Project](https://github.com/LewallenAE/java-zoo-v2)** – Extended zoo simulation using abstract classes and interfaces  
-- 📚 **[Library Management System](https://github.com/LewallenAE/library-system)** – JavaFX GUI app with CRUD operations and file I/O
+- 🐯 **[Java Zoo Project](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Zoo)** – OOP design with inheritance and polymorphism  
+- 🦁 **[Zoo Upgrade Project](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Zoo_Upgrade).** – Extended zoo simulation using abstract classes and interfaces  
+- 📚 **[Library Search Engine](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Library)** –
+-     **[Library Search Engine GUI W/ SQL]**(
 
 ---
 

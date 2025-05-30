@@ -60,17 +60,16 @@ This repository contains the source code and structure for my portfolio site, sh
 │   │   │   ├── library.ser      # Serialized library object
 │   │   │   └── user_interactions.log
 │   │   └── test/
-│   │       └── test_books.txt
+│   │       └── test_books.txt  #for unit testing if needed
 │
 │   ├── LibraryGUI/              # JavaFX-based GUI for the Library system
 │   │   └── main/
 │   │       ├── java/
 │   │       │   ├── module-info.java
 │   │       │   └── com/
-│   │       │       └── yourname/
-│   │       │           └── librarygui/
-│   │       │               ├── Book.java
-│   │       │               └── LibraryUI.java
+│   │       │        └── librarygui/
+│   │       │                ├── Book.java
+│   │       │                └── LibraryUI.java
 │   │       └── resources/
 │   │           ├── primary.fxml
 │   │           └── secondary.fxml

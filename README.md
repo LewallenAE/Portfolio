@@ -28,13 +28,14 @@ This repository contains the source code and structure for my portfolio site, sh
 - 🐙 **[GitFolio](https://github.com/LewallenAE/gitfolio)** – Portfolio generator powered by GitHub API  
 - 🐯 **[Java Zoo Project](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Zoo)** – OOP design with inheritance and polymorphism  
 - 🦁 **[Zoo Upgrade Project](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Zoo_Upgrade).** – Extended zoo simulation using abstract classes and interfaces  
-- 📚 **[Library Search Engine](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Library)** –
-- **[Library Search Engine GUI W/ SQL]**()
+- 📚 **[Library Search Engine](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Library)** – A search engine simulation for a library
+- 🔎 **[Library Search Engine GUI W/ SQL](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/LibraryGUI)** – A JavaFX GUI for managing a library, built full-stack with SQL database integration
 
-## Project Structure
 
-- **To run this "out of the box"**
-- The project structure should look like the following in IntelliJ/Eclipse/VScode/Whatever IDE or Code Editor you are using.
+## 📁 Project Folder Structure Structure
+
+- ### **To run this "out of the box"**
+- #### The project structure should look like the following in IntelliJ/Eclipse/VScode/Whatever IDE or Code Editor you are using.
 ```
 | /Wherever/Portfolio/
 ├── .idea/                        # IntelliJ project files (auto-generated)

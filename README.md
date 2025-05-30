@@ -29,7 +29,71 @@ This repository contains the source code and structure for my portfolio site, sh
 - 🐯 **[Java Zoo Project](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Zoo)** – OOP design with inheritance and polymorphism  
 - 🦁 **[Zoo Upgrade Project](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Zoo_Upgrade).** – Extended zoo simulation using abstract classes and interfaces  
 - 📚 **[Library Search Engine](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Library)** –
--     **[Library Search Engine GUI W/ SQL]**(
+- **[Library Search Engine GUI W/ SQL]**()
+
+## Project Structure
+
+- **To run this "out of the box"**
+- The project structure should look like the following in IntelliJ/Eclipse/VScode/Whatever IDE or Code Editor you are using.
+- /Wherever/Portfolio/
+├── .idea/                        # IntelliJ project files (auto-generated)
+├── .gitignore
+├── Portfolio.iml                # IntelliJ module file
+├── pom.xml                      # Maven config
+├── target/
+│   └── classes/                 # Compiled Java class files
+├── src/
+│
+│   ├── Library/                 # CLI-based Library Management System (Java)
+│   │   ├── Book.java
+│   │   ├── Library.java
+│   │   ├── LibraryMenu.java
+│   │   ├── LibrarySerializer.java
+│   │   ├── Main.java            # Entry point for CLI
+│   │   ├── SortUtil.java
+│   │   └── UserInteractionLogger.java
+│
+│   ├── resources/               # Data and testing files used by Library CLI
+│   │   ├── data/
+│   │   │   ├── books.txt
+│   │   │   ├── library.ser      # Serialized library object
+│   │   │   └── user_interactions.log
+│   │   └── test/
+│   │       └── test_books.txt
+│
+│   ├── LibraryGUI/              # JavaFX-based GUI for the Library system
+│   │   └── main/
+│   │       ├── java/
+│   │       │   ├── module-info.java
+│   │       │   └── com/
+│   │       │       └── yourname/
+│   │       │           └── librarygui/
+│   │       │               ├── Book.java
+│   │       │               └── LibraryUI.java
+│   │       └── resources/
+│   │           ├── primary.fxml
+│   │           └── secondary.fxml
+│
+│   ├── Zoo/                     # Intro OOP project (no I/O)
+│   │   ├── Animal.java
+│   │   ├── Dolphin.java         # Implements Swim
+│   │   ├── Eat.java             # Interface
+│   │   ├── Main.java            # Entry point for zoo simulation
+│   │   ├── Penguin.java         # Implements Walk and Swim
+│   │   ├── Swim.java            # Interface
+│   │   ├── Tiger.java           # Implements Walk and Eat
+│   │   └── Walk.java            # Interface
+│
+│   └── Zoo_Upgrade/             # Advanced Zoo w/ File I/O + Serialization
+│       ├── Animal.java
+│       ├── Dolphin.java
+│       ├── Eat.java
+│       ├── Main.java
+│       ├── Penguin.java
+│       ├── Swim.java
+│       ├── Tiger.java
+│       └── Walk.java
+
 
 ---
 

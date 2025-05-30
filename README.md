@@ -1,6 +1,6 @@
 # 🧠 Anthony Lewallen – Developer Portfolio
 
-🚀 **[Eugenius – Full-Stack AI Chat UI](https://react-llm-chat.vercel.app/)**  
+## Check out 🚀 **[Eugenius – Full-Stack AI Chat UI](https://react-llm-chat.vercel.app/)**  
 *(React + Express + OpenAI API | Markdown rendering, dark/light mode, animated loaders, chat history)*
 
 ---

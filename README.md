@@ -24,18 +24,29 @@ This repository contains the source code and structure for my portfolio site, sh
 
 ## 📂 Featured Projects
 
-- 💬 **[Eugenius](https://github.com/LewallenAE/react-llm-chat)** – LLM chatbot with markdown, theme toggle, and animated loaders  
-- 🐙 **[GitFolio](https://github.com/LewallenAE/gitfolio)** – Portfolio generator powered by GitHub API Try entering LewallenAE or Torvald in the Search Bar! 
-- 🐯 **[Java Zoo Project](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Zoo)** – OOP design with inheritance and polymorphism  
-- 🦁 **[Zoo Upgrade Project](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Zoo_Upgrade).** – Extended zoo simulation using abstract classes and interfaces  
-- 📚 **[Library Search Engine](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Library)** – A search engine simulation for a library
-- 🔎 **[Library Search Engine GUI W/ SQL](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/LibraryGUI)** – A JavaFX GUI for managing a library, built full-stack with SQL database integration
+## 📂 Featured Projects
+
+💬 **[Eugenius](https://github.com/LewallenAE/react-llm-chat)** – A full-stack LLM chatbot using React, Node.js, and the OpenAI API with markdown rendering, animated loaders, and persistent chat history
+
+🐙 **[GitFolio](https://github.com/LewallenAE/gitfolio)** – GitHub-powered portfolio generator with live repo cards and commit stats  
+*Try entering `LewallenAE` or `torvalds` in the search bar!*
+
+🐯 **[Java Zoo Project](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Zoo)** – Object-oriented animal simulation using inheritance, interfaces, and polymorphism
+
+🦁 **[Zoo Upgrade Project](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Zoo_Upgrade)** – Refactored zoo simulation with file I/O, serialization, and persistent animal states
+
+📚 **[Library Search Engine (CLI)](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Library)** – Command-line Java library manager with search and sort capabilities
+
+🔎 **[Library Search Engine GUI w/ SQL](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/LibraryGUI)** – A full-stack JavaFX GUI app for managing library data backed by a SQL database
 
 
 ## 📁 Project Folder Structure Structure
 
-- ### **To run this "out of the box"**
-- #### The project structure should look like the following in IntelliJ/Eclipse/VScode/Whatever IDE or Code Editor you are using.
+### 🗂 How to Run This Repo Out of the Box
+
+Make sure your local folder structure matches the layout below when importing into IntelliJ, Eclipse, VS Code, or any Java-friendly IDE.
+
+- 
 ```
 | /Wherever/Portfolio/
 ├── .idea/                        # IntelliJ project files (auto-generated)

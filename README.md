@@ -25,7 +25,7 @@ This repository contains the source code and structure for my portfolio site, sh
 ## 📂 Featured Projects
 
 - 💬 **[Eugenius](https://github.com/LewallenAE/react-llm-chat)** – LLM chatbot with markdown, theme toggle, and animated loaders  
-- 🐙 **[GitFolio](https://github.com/LewallenAE/gitfolio)** – Portfolio generator powered by GitHub API  
+- 🐙 **[GitFolio](https://github.com/LewallenAE/gitfolio)** – Portfolio generator powered by GitHub API Try entering LewallenAE or Torvald in the Search Bar! 
 - 🐯 **[Java Zoo Project](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Zoo)** – OOP design with inheritance and polymorphism  
 - 🦁 **[Zoo Upgrade Project](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Zoo_Upgrade).** – Extended zoo simulation using abstract classes and interfaces  
 - 📚 **[Library Search Engine](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/Library)** – A search engine simulation for a library

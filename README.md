@@ -36,7 +36,7 @@ This repository contains the source code and structure for my portfolio site, sh
 - **To run this "out of the box"**
 - The project structure should look like the following in IntelliJ/Eclipse/VScode/Whatever IDE or Code Editor you are using.
 - /Wherever/Portfolio/
-├── .idea/                        # IntelliJ project files (auto-generated)
+```├── .idea/                        # IntelliJ project files (auto-generated)
 ├── .gitignore
 ├── Portfolio.iml                # IntelliJ module file
 ├── pom.xml                      # Maven config
@@ -93,7 +93,7 @@ This repository contains the source code and structure for my portfolio site, sh
 │       ├── Swim.java
 │       ├── Tiger.java
 │       └── Walk.java
-
+```
 
 ---
 

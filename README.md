@@ -24,8 +24,6 @@ This repository contains the source code and structure for my portfolio site, sh
 
 ## 📂 Featured Projects
 
-## 📂 Featured Projects
-
 💬 **[Eugenius](https://github.com/LewallenAE/react-llm-chat)** – A full-stack LLM chatbot using React, Node.js, and the OpenAI API with markdown rendering, animated loaders, and persistent chat history
 
 🐙 **[GitFolio](https://github.com/LewallenAE/gitfolio)** – GitHub-powered portfolio generator with live repo cards and commit stats  
@@ -42,7 +40,7 @@ This repository contains the source code and structure for my portfolio site, sh
 
 ## 📁 Project Folder Structure Structure
 
-### 🗂 How to Run This Repo Out of the Box
+### How to Run This Repo Out of the Box
 
 Make sure your local folder structure matches the layout below when importing into IntelliJ, Eclipse, VS Code, or any Java-friendly IDE.
 

@@ -1,6 +1,7 @@
 # 🧠 Anthony Lewallen – Developer Portfolio
 
 ## Check out 🚀 **[Eugenius – Full-Stack AI Chat UI](https://react-llm-chat.vercel.app/)**  
+[![Deployed on Vercel](https://img.shields.io/badge/Live%20Demo-Vercel-brightgreen)](https://react-llm-chat.vercel.app/)
 *(React + Express + OpenAI API | Markdown rendering, dark/light mode, animated loaders, chat history)*
 
 ---
@@ -38,7 +39,18 @@ This repository contains the source code and structure for my portfolio site, sh
 🔎 **[Library Search Engine GUI w/ SQL](https://github.com/LewallenAE/Portfolio/tree/main/Desktop/Portfolio/src/LibraryGUI)** – A full-stack JavaFX GUI app for managing library data backed by a SQL database
 
 
-## 📁 Project Folder Structure Structure
+## 🚀 Getting Started
+
+To run any Java project locally:
+
+1. Clone this repository
+2. Open in IntelliJ or your preferred Java IDE
+3. For GUI projects, make sure JavaFX is installed and configured
+4. Build using `pom.xml` (Maven)
+5. Run the `Main.java` file in each project folder to launch the app
+
+
+## 📁 Project Folder Structure
 
 ### How to Run This Repo Out of the Box
 
